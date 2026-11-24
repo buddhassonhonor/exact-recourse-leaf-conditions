@@ -1,0 +1,10 @@
+{
+  "run": "result/runs/20261124-141732__published_deep",
+  "pilot_run": "result/runs/20261124-141658__published_deep_pilot",
+  "cases": 4,
+  "maximum_final_cases": 16,
+  "maximum_pilot_cases": 3,
+  "time_limit_s": 5,
+  "known_method": "highs_milp",
+  "absolute_gap_threshold": 1e-05
+}

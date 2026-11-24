@@ -1,0 +1,80 @@
+{
+  "electricity": {
+    "dataset": 151,
+    "name": "electricity",
+    "target": "class",
+    "version": "1",
+    "labels": [
+      "DOWN",
+      "UP"
+    ],
+    "count_0": 26075,
+    "count_1": 19237,
+    "source": "https://www.openml.org/d/151",
+    "cached_file": "openml\\org\\openml\\www\\datasets\\151\\dataset_151.pq",
+    "sha256": "b51cffb5e05c5d0849af5156b4ca3a3cab8d837008f0723f7b136bd162c25c79",
+    "licence": "Public",
+    "missing_cells": 0,
+    "rows": 45312,
+    "features": 8,
+    "target_missing": 0,
+    "columns": [
+      "date",
+      "day",
+      "period",
+      "nswprice",
+      "nswdemand",
+      "vicprice",
+      "vicdemand",
+      "transfer"
+    ],
+    "excluded_present": []
+  },
+  "bank": {
+    "dataset": "bank",
+    "origin": "provider chronology in bank-full.csv",
+    "doi": "10.24432/C5K306",
+    "sha256": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d",
+    "path": "bank\\bank-full.csv",
+    "rows": 45211,
+    "features": [
+      "age",
+      "job",
+      "marital",
+      "education",
+      "default",
+      "balance",
+      "housing",
+      "loan",
+      "contact",
+      "day",
+      "month",
+      "campaign",
+      "pdays",
+      "previous",
+      "poutcome"
+    ]
+  },
+  "bike": {
+    "dataset": "bike",
+    "origin": "hour.csv, UCI dataset via checksum-recorded public mirror",
+    "doi": "10.24432/C5W894",
+    "sha256": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+    "path": "bike_sharing\\hour.csv",
+    "rows": 17379,
+    "features": [
+      "season",
+      "mnth",
+      "hr",
+      "holiday",
+      "weekday",
+      "workingday",
+      "weathersit",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "target_rule": "hourly rental count > 104.0"
+  }
+}

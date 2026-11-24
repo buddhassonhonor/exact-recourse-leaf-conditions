@@ -1,0 +1,300 @@
+{
+  "cases": 320,
+  "feasible": 244,
+  "infeasible": 76,
+  "largest_error": 0.0,
+  "median_solver_ms": 1.8290500000000003,
+  "p95_solver_ms": 7.950315000000005,
+  "case": {
+    "dataset": 31,
+    "seed": 7,
+    "query": 240,
+    "free_cost": 0.7287335142023621,
+    "frozen_fields": [
+      "age",
+      "housing",
+      "credit_amount",
+      "other_parties",
+      "employment",
+      "property_magnitude",
+      "num_dependents",
+      "purpose",
+      "job",
+      "foreign_worker",
+      "own_telephone",
+      "other_payment_plans",
+      "checking_status",
+      "credit_history",
+      "savings_status"
+    ],
+    "released_field": "purpose",
+    "increasing": [
+      "duration"
+    ],
+    "decreasing": [
+      "credit_amount"
+    ],
+    "release_cost": 1.0,
+    "changed_fields": [
+      "purpose"
+    ]
+  },
+  "fold_median_index_ms": 3.3166499999999997,
+  "batch_paired_ratios": {
+    "1": {
+      "speedup": [
+        1.8919379844961237,
+        1.404296875,
+        2.9301886792452834
+      ],
+      "tuned_speedup": [
+        1.0070263637454442,
+        0.9793300071275837,
+        1.027027027027027
+      ],
+      "dispatch_speedup": [
+        1.0043325460861996,
+        0.9930069930069929,
+        1.0174757281553397
+      ],
+      "sharing_speedup": [
+        1.1065950358154257,
+        1.060428849902534,
+        1.1546391752577319
+      ]
+    },
+    "8": {
+      "speedup": [
+        2.462733698668966,
+        2.1149542217700916,
+        3.107717041800643
+      ],
+      "tuned_speedup": [
+        1.0121328607365943,
+        1.0018055973517905,
+        1.026132673573527
+      ],
+      "dispatch_speedup": [
+        1.0041098595006486,
+        0.9672846237731734,
+        1.0129870129870129
+      ],
+      "sharing_speedup": [
+        1.2799178042298431,
+        1.14969450101833,
+        1.3623395149786022
+      ]
+    },
+    "32": {
+      "speedup": [
+        2.472716267041168,
+        1.807969478592624,
+        3.2724035608308606
+      ],
+      "tuned_speedup": [
+        1.0143991092133038,
+        0.9987552700260992,
+        1.0283748557753942
+      ],
+      "dispatch_speedup": [
+        1.0058378748257097,
+        0.9882697947214076,
+        1.0080572963294538
+      ],
+      "sharing_speedup": [
+        1.2816467957761728,
+        1.1575581395348837,
+        1.3761035903472632
+      ]
+    },
+    "128": {
+      "speedup": [
+        4.353250811689466,
+        1.7026458208057724,
+        8.548668032786885
+      ],
+      "tuned_speedup": [
+        1.0188872052036708,
+        1.0120842881895926,
+        1.0438063393805208
+      ],
+      "dispatch_speedup": [
+        1.004678839412231,
+        0.9866131191432396,
+        1.012226184411615
+      ],
+      "sharing_speedup": [
+        1.3661638424887732,
+        1.1649369903632318,
+        1.6555968713937685
+      ]
+    },
+    "256": {
+      "speedup": [
+        5.521786188995257,
+        1.632362155388471,
+        9.015182974305736
+      ],
+      "tuned_speedup": [
+        1.0275015857861902,
+        1.006377293809236,
+        1.034265621355914
+      ],
+      "dispatch_speedup": [
+        0.9996389362620688,
+        0.9952623475068104,
+        1.0215612212779352
+      ],
+      "sharing_speedup": [
+        2.110942945994397,
+        1.1761489581794,
+        3.277316376849208
+      ]
+    }
+  },
+  "batch_per_query_us": {
+    "1": {
+      "calibrated_dispatch": 48.75,
+      "dense": 89.05000000000001,
+      "fixed_screen": 139.55,
+      "interned": 42.7,
+      "sparse_unshared": 45.599999999999994,
+      "tuned_screen": 133.05,
+      "speedup": 1.8919379844961237,
+      "tuned_speedup": 1.0070263637454442,
+      "dispatch_speedup": 1.0043325460861996,
+      "sharing_speedup": 1.1065950358154257
+    },
+    "8": {
+      "calibrated_dispatch": 11.7625,
+      "dense": 25.925,
+      "fixed_screen": 80.36875,
+      "interned": 11.631250000000001,
+      "sparse_unshared": 14.775,
+      "tuned_screen": 80.14375000000001,
+      "speedup": 2.462733698668966,
+      "tuned_speedup": 1.0121328607365943,
+      "dispatch_speedup": 1.0041098595006486,
+      "sharing_speedup": 1.2799178042298431
+    },
+    "32": {
+      "calibrated_dispatch": 6.321875,
+      "dense": 13.0046875,
+      "fixed_screen": 70.83906250000001,
+      "interned": 6.325,
+      "sparse_unshared": 8.1359375,
+      "tuned_screen": 61.290625,
+      "speedup": 2.472716267041168,
+      "tuned_speedup": 1.0143991092133038,
+      "dispatch_speedup": 1.0058378748257097,
+      "sharing_speedup": 1.2816467957761728
+    },
+    "128": {
+      "calibrated_dispatch": 4.822265625,
+      "dense": 17.101953125,
+      "fixed_screen": 69.53149594907407,
+      "interned": 5.053906250000001,
+      "sparse_unshared": 6.878877314814815,
+      "tuned_screen": 67.3578125,
+      "speedup": 4.353250811689466,
+      "tuned_speedup": 1.0188872052036708,
+      "dispatch_speedup": 1.004678839412231,
+      "sharing_speedup": 1.3661638424887732
+    },
+    "256": {
+      "calibrated_dispatch": 4.6451171875,
+      "dense": 18.773046875,
+      "fixed_screen": 64.78106715425531,
+      "interned": 4.5666015625,
+      "sparse_unshared": 10.1775390625,
+      "tuned_screen": 55.898828125,
+      "speedup": 5.521786188995257,
+      "tuned_speedup": 1.0275015857861902,
+      "dispatch_speedup": 0.9996389362620688,
+      "sharing_speedup": 2.110942945994397
+    }
+  },
+  "batch_request_realized": {
+    "1": {
+      "min": 1.0,
+      "median": 1.0,
+      "max": 1.0
+    },
+    "8": {
+      "min": 8.0,
+      "median": 8.0,
+      "max": 8.0
+    },
+    "32": {
+      "min": 32.0,
+      "median": 32.0,
+      "max": 32.0
+    },
+    "128": {
+      "min": 86.0,
+      "median": 128.0,
+      "max": 128.0
+    },
+    "256": {
+      "min": 86.0,
+      "median": 256.0,
+      "max": 256.0
+    }
+  },
+  "dispatch_count": {
+    "dense": 5,
+    "interned": 195
+  },
+  "prefix_counts": {
+    "0.75": 121,
+    "0.5": 41,
+    "0.25": 28,
+    "0.125": 10
+  },
+  "refit_rate": {
+    "0.0": {
+      "interned": 0.40234375,
+      "nearest": 0.7453125
+    },
+    "0.025": {
+      "interned": 0.37109375,
+      "nearest": 0.73515625
+    },
+    "0.05": {
+      "interned": 0.37265625,
+      "nearest": 0.7124999999999999
+    },
+    "0.1": {
+      "interned": 0.35,
+      "nearest": 0.66640625
+    },
+    "0.2": {
+      "interned": 0.32343750000000004,
+      "nearest": 0.646875
+    }
+  },
+  "refit_rate_factual_negative": {
+    "0.0": {
+      "interned": 0.18951545530492897,
+      "nearest": 0.7229177589039181
+    },
+    "0.025": {
+      "interned": 0.1891317410244855,
+      "nearest": 0.6920617810397942
+    },
+    "0.05": {
+      "interned": 0.17838063826822131,
+      "nearest": 0.6884433962264151
+    },
+    "0.1": {
+      "interned": 0.20823204494503417,
+      "nearest": 0.6368173040594434
+    },
+    "0.2": {
+      "interned": 0.17162193757938438,
+      "nearest": 0.6158659336476238
+    }
+  },
+  "n_retraining_comparisons": 51200,
+  "n_retraining_folds": 800
+}

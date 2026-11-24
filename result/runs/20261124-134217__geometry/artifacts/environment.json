@@ -1,0 +1,32 @@
+{
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "command": [
+    "<local path> Files\\Python313\\python.exe",
+    "script/compare_search.py",
+    "geometry"
+  ],
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "workers": 1,
+  "CPU": "Intel(R) Core(TM) Ultra 9 275HX",
+  "RAM_bytes": "34359738368",
+  "GPU": "NVIDIA GeForce RTX 5090 Laptop GPU, 24463 MiB",
+  "gpu_used": false,
+  "BLAS_threads": 1,
+  "git": "4fdab8d231a3eb4bb94186534040e03e988dcf01",
+  "libraries": {
+    "numpy": "2.4.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.9.0",
+    "pandas": "2.3.3",
+    "pyarrow": "24.0.0"
+  },
+  "sha256": {
+    "script/recourse.py": "a7c9dce952d265398f9a7d45bfd044531527b213a868df3dca8fcf527e74618f",
+    "script/run_recourse.py": "ee23ddfc46c7f1299c473f3b9faa2108cc8307cc401e8ee921a89096d62fa03f",
+    "script/benchmarks.json": "396cad0d50bc9d0f826cd449629b1d49ab820ecd15cd50da52e11300da8dc9ef",
+    "script/compare_search.py": "ef6bbd9d7f85de7046b5ec17d6edee5f5a1b5dbea69f0583abf28c20dda24d92",
+    "script/region_search.py": "0138661702fdf33d0fe4ef5a5f9606ce07fa2e1d7d265d4c6b7ba26c9ca603f8",
+    "docs/experiment_plan_round2.md": "ab6d9d40599e30b021f06ce39910f7b35d7ff4347ba755e21225424ecbe31475"
+  }
+}

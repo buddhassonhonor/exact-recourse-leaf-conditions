@@ -1,0 +1,184 @@
+{
+  "rows": [
+    {
+      "task": "bank",
+      "method": "free",
+      "queries": 800,
+      "found": 800,
+      "semantic": 3,
+      "retained": 337,
+      "usable": 1,
+      "relative_retention": 0.42125,
+      "found_but_immutable_violation": 797,
+      "median_cost": 1.0
+    },
+    {
+      "task": "bank",
+      "method": "semantic_exact",
+      "queries": 800,
+      "found": 12,
+      "semantic": 12,
+      "retained": 3,
+      "usable": 3,
+      "relative_retention": 0.25,
+      "found_but_immutable_violation": 0,
+      "median_cost": 1.0
+    },
+    {
+      "task": "bank",
+      "method": "semantic_vote",
+      "queries": 800,
+      "found": 0,
+      "semantic": 0,
+      "retained": 0,
+      "usable": 0,
+      "relative_retention": null,
+      "found_but_immutable_violation": 0,
+      "median_cost": null
+    },
+    {
+      "task": "bike",
+      "method": "free",
+      "queries": 800,
+      "found": 800,
+      "semantic": 0,
+      "retained": 656,
+      "usable": 0,
+      "relative_retention": 0.82,
+      "found_but_immutable_violation": 800,
+      "median_cost": 0.20833337306976302
+    },
+    {
+      "task": "bike",
+      "method": "semantic_exact",
+      "queries": 800,
+      "found": 256,
+      "semantic": 256,
+      "retained": 230,
+      "usable": 194,
+      "relative_retention": 0.8984375,
+      "found_but_immutable_violation": 0,
+      "median_cost": 0.08333333333333301
+    },
+    {
+      "task": "bike",
+      "method": "semantic_vote",
+      "queries": 800,
+      "found": 207,
+      "semantic": 207,
+      "retained": 197,
+      "usable": 166,
+      "relative_retention": 0.9516908212560387,
+      "found_but_immutable_violation": 0,
+      "median_cost": 0.08333333333333301
+    },
+    {
+      "task": "electricity",
+      "method": "free",
+      "queries": 800,
+      "found": 800,
+      "semantic": 39,
+      "retained": 350,
+      "usable": 13,
+      "relative_retention": 0.4375,
+      "found_but_immutable_violation": 761,
+      "median_cost": 0.1696847313662025
+    },
+    {
+      "task": "electricity",
+      "method": "semantic_exact",
+      "queries": 800,
+      "found": 90,
+      "semantic": 90,
+      "retained": 59,
+      "usable": 20,
+      "relative_retention": 0.6555555555555556,
+      "found_but_immutable_violation": 0,
+      "median_cost": 0.2628236798930015
+    },
+    {
+      "task": "electricity",
+      "method": "semantic_vote",
+      "queries": 800,
+      "found": 48,
+      "semantic": 48,
+      "retained": 41,
+      "usable": 15,
+      "relative_retention": 0.8541666666666666,
+      "found_but_immutable_violation": 0,
+      "median_cost": 0.41281723840377105
+    }
+  ],
+  "paired": {
+    "bike": {
+      "both_found": 207,
+      "exact_retained": 191,
+      "vote_retained": 197,
+      "exact_usable": 160,
+      "vote_usable": 166,
+      "median_cost_increase": 0.0
+    },
+    "electricity": {
+      "both_found": 48,
+      "exact_retained": 40,
+      "vote_retained": 41,
+      "exact_usable": 14,
+      "vote_usable": 15,
+      "median_cost_increase": 0.013216829981350004
+    }
+  },
+  "bank_weight_sensitivity": {
+    "rows": [
+      {
+        "model": "original",
+        "method": "free",
+        "queries": 496,
+        "admissible": 3,
+        "retained": 211,
+        "usable": 1
+      },
+      {
+        "model": "original",
+        "method": "semantic_exact",
+        "queries": 496,
+        "admissible": 8,
+        "retained": 2,
+        "usable": 2
+      },
+      {
+        "model": "original",
+        "method": "semantic_vote",
+        "queries": 496,
+        "admissible": 0,
+        "retained": 0,
+        "usable": 0
+      },
+      {
+        "model": "class_weight_balanced",
+        "method": "free",
+        "queries": 496,
+        "admissible": 6,
+        "retained": 256,
+        "usable": 3
+      },
+      {
+        "model": "class_weight_balanced",
+        "method": "semantic_exact",
+        "queries": 496,
+        "admissible": 104,
+        "retained": 64,
+        "usable": 14
+      },
+      {
+        "model": "class_weight_balanced",
+        "method": "semantic_vote",
+        "queries": 496,
+        "admissible": 31,
+        "retained": 29,
+        "usable": 3
+      }
+    ],
+    "new_base_accuracy_median": 0.512262296085296,
+    "new_updated_accuracy_median": 0.515498416694137
+  }
+}

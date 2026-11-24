@@ -1,0 +1,146 @@
+{
+  "n_geometry": 2880,
+  "n_published": 320,
+  "geo_datasets": 12,
+  "geo_max_gap": 0.0,
+  "geometry_ratio": [
+    6.721124106844195,
+    3.9400615943858233,
+    12.343645993025078
+  ],
+  "geometry_wins_shared": 12,
+  "geometry_shared_dense": [
+    2.031290322580645,
+    1.174963434537691,
+    3.300883435974855
+  ],
+  "geometry_retained_share": 0.5680985680985681,
+  "geometry_added_array_bytes": 5186.5,
+  "geometry_setup_median_us": {
+    "interned": 3390.0,
+    "volumetric": 3783.9
+  },
+  "published": {
+    "dense": {
+      "valid_free": 160,
+      "valid_restricted": 140,
+      "valid_given_feasible": 300,
+      "invalid_returns": 0,
+      "feasible_cases": 300,
+      "cases": 320,
+      "both_feasible_count": 300,
+      "matched_cost_tol": 300,
+      "median_positive_gap": 0.0,
+      "largest_abs_gap": 0.0,
+      "median_latency_us": 158.4,
+      "p95_latency_us": 220.3,
+      "status": {
+        "returned": 300,
+        "infeasible": 20
+      },
+      "setup_us": 2236.15,
+      "rss_delta_bytes": 10240.0
+    },
+    "dice_random": {
+      "valid_free": 158,
+      "valid_restricted": 128,
+      "valid_given_feasible": 286,
+      "invalid_returns": 0,
+      "feasible_cases": 300,
+      "cases": 320,
+      "both_feasible_count": 286,
+      "matched_cost_tol": 34,
+      "median_positive_gap": 0.14334811363369152,
+      "largest_abs_gap": 1.868605636060237,
+      "median_latency_us": 34840.55,
+      "p95_latency_us": 70766.43000000001,
+      "status": {
+        "returned": 286,
+        "UserConfigValidationException: No counterfactuals found for any of the query points! Kindly check your configuration.": 27,
+        "invalid": 7
+      },
+      "setup_us": 62742.5,
+      "rss_delta_bytes": 0.0
+    },
+    "interned": {
+      "valid_free": 160,
+      "valid_restricted": 140,
+      "valid_given_feasible": 300,
+      "invalid_returns": 0,
+      "feasible_cases": 300,
+      "cases": 320,
+      "both_feasible_count": 300,
+      "matched_cost_tol": 300,
+      "median_positive_gap": 0.0,
+      "largest_abs_gap": 0.0,
+      "median_latency_us": 76.5,
+      "p95_latency_us": 127.5900000000001,
+      "status": {
+        "returned": 300,
+        "infeasible": 20
+      },
+      "setup_us": 2236.15,
+      "rss_delta_bytes": 10240.0
+    },
+    "ocean_cp": {
+      "valid_free": 160,
+      "valid_restricted": 140,
+      "valid_given_feasible": 300,
+      "invalid_returns": 0,
+      "feasible_cases": 300,
+      "cases": 320,
+      "both_feasible_count": 300,
+      "matched_cost_tol": 300,
+      "median_positive_gap": 0.0,
+      "largest_abs_gap": 5.960464477539064e-08,
+      "median_latency_us": 7515.0,
+      "p95_latency_us": 19731.215000000007,
+      "status": {
+        "OPTIMAL": 300,
+        "INFEASIBLE": 20
+      },
+      "setup_us": 8878.9,
+      "rss_delta_bytes": 67584.0
+    },
+    "ocean_mip": {
+      "valid_free": 160,
+      "valid_restricted": 140,
+      "valid_given_feasible": 300,
+      "invalid_returns": 0,
+      "feasible_cases": 300,
+      "cases": 320,
+      "both_feasible_count": 300,
+      "matched_cost_tol": 300,
+      "median_positive_gap": 0.0,
+      "largest_abs_gap": 5.960464477539064e-08,
+      "median_latency_us": 9814.7,
+      "p95_latency_us": 23758.09,
+      "status": {
+        "OPTIMAL": 300,
+        "INFEASIBLE": 20
+      },
+      "setup_us": 55372.45,
+      "rss_delta_bytes": 0.0
+    },
+    "volumetric": {
+      "valid_free": 160,
+      "valid_restricted": 140,
+      "valid_given_feasible": 300,
+      "invalid_returns": 0,
+      "feasible_cases": 300,
+      "cases": 320,
+      "both_feasible_count": 300,
+      "matched_cost_tol": 300,
+      "median_positive_gap": 0.0,
+      "largest_abs_gap": 0.0,
+      "median_latency_us": 377.70000000000005,
+      "p95_latency_us": 778.5400000000002,
+      "status": {
+        "returned": 300,
+        "infeasible": 20
+      },
+      "setup_us": 2553.65,
+      "rss_delta_bytes": 20480.0
+    }
+  }
+}

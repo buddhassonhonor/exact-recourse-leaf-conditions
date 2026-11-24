@@ -1,0 +1,7 @@
+model,method,queries,admissible,retained,usable
+original,free,496,3,211,1
+original,semantic_exact,496,8,2,2
+original,semantic_vote,496,0,0,0
+class_weight_balanced,free,496,6,256,3
+class_weight_balanced,semantic_exact,496,104,64,14
+class_weight_balanced,semantic_vote,496,31,29,3

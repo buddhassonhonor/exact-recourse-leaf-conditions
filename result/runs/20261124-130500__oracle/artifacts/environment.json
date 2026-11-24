@@ -1,0 +1,30 @@
+{
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "command": [
+    "<local path> Files\\Python313\\python.exe",
+    "script/review_experiments.py",
+    "oracle"
+  ],
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "workers": 1,
+  "CPU": "Intel(R) Core(TM) Ultra 9 275HX",
+  "RAM_bytes": "34359738368",
+  "GPU": "NVIDIA GeForce RTX 5090 Laptop GPU, 24463 MiB",
+  "gpu_used": false,
+  "BLAS_threads": 1,
+  "git": "4fdab8d231a3eb4bb94186534040e03e988dcf01",
+  "libraries": {
+    "numpy": "2.4.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.9.0",
+    "pandas": "2.3.3",
+    "pyarrow": "24.0.0"
+  },
+  "sha256": {
+    "script/recourse.py": "a7c9dce952d265398f9a7d45bfd044531527b213a868df3dca8fcf527e74618f",
+    "script/run_recourse.py": "b9819d822bc35ad0e1946090d6f8c0811fa68124400cc17c07f1f79783bc9398",
+    "script/benchmarks.json": "396cad0d50bc9d0f826cd449629b1d49ab820ecd15cd50da52e11300da8dc9ef",
+    "script/review_experiments.py": "e1d26bc923dea98733edd344634b22b053055c95e5e55d5f3a40be7eaf0490df"
+  }
+}

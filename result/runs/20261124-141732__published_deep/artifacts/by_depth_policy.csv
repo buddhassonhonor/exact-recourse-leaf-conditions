@@ -1,0 +1,73 @@
+method,depth,policy,queries,feasible,valid,matched,above_tolerance,valid_p50_us,valid_p95_us,gap_median,max_gap,license_limits,timeout_or_unresolved,no_candidate,unvalidated_return,other,true_infeasible,alleged_infeasible,validated_status
+dice,6,free,470,470,461,20,441,34295.3,199284.5,0.14346357434988002,2.103981699270662,0,0,0,9,0,0,0,"{'returned': 461, 'invalid': 9}"
+dice,6,half,470,407,374,64,310,30946.050000000003,161492.62499999997,0.058200269937515,17.89679464697838,0,0,70,26,0,0,0,"{'returned': 374, 'UserConfigValidationException: No counterfactuals found for any of the query points! Kindly check your configuration.': 70, 'invalid': 26}"
+dice,6,three_quarters,470,244,227,29,198,29281.0,138939.16999999993,0.030975073575973,3.163851946592331,0,0,214,29,0,0,0,"{'returned': 227, 'UserConfigValidationException: No counterfactuals found for any of the query points! Kindly check your configuration.': 214, 'invalid': 29}"
+dice,10,free,470,470,458,16,442,34837.2,191645.85999999996,0.194807190448045,2.413879729807377,0,0,0,12,0,0,0,"{'returned': 458, 'invalid': 12}"
+dice,10,half,470,417,386,60,326,31311.1,147821.275,0.0748195871710775,7.243867666821245,0,0,45,39,0,0,0,"{'returned': 386, 'UserConfigValidationException: No counterfactuals found for any of the query points! Kindly check your configuration.': 45, 'invalid': 39}"
+dice,10,three_quarters,470,259,246,29,217,29312.25,117139.775,0.0330720394849775,6.754980646073818,0,0,174,50,0,0,0,"{'returned': 246, 'UserConfigValidationException: No counterfactuals found for any of the query points! Kindly check your configuration.': 174, 'invalid': 50}"
+dice,14,free,470,470,461,16,445,35727.6,190115.7,0.20858934521675102,2.250152954831719,0,0,0,9,0,0,0,"{'returned': 461, 'invalid': 9}"
+dice,14,half,470,421,392,58,334,30749.4,148633.325,0.08146247267723,3.205859659239649,0,0,41,37,0,0,0,"{'returned': 392, 'UserConfigValidationException: No counterfactuals found for any of the query points! Kindly check your configuration.': 41, 'invalid': 37}"
+dice,14,three_quarters,470,276,259,34,225,29643.8,135150.11,0.033652991056442004,1.6683727204799652,0,0,155,56,0,0,0,"{'returned': 259, 'UserConfigValidationException: No counterfactuals found for any of the query points! Kindly check your configuration.': 155, 'invalid': 56}"
+highs_milp,6,free,470,470,470,470,0,3296.55,7367.684999999975,0.0,0.0,0,0,0,0,0,0,0,{'OPTIMAL': 470}
+highs_milp,6,half,470,407,407,407,0,2309.0,4932.739999999999,0.0,0.0,0,0,0,0,0,63,0,"{'OPTIMAL': 407, 'INFEASIBLE': 63}"
+highs_milp,6,three_quarters,470,244,244,244,0,2064.55,3627.345,0.0,0.0,0,0,0,0,0,226,0,"{'OPTIMAL': 244, 'INFEASIBLE': 226}"
+highs_milp,10,free,470,470,470,470,0,5103.45,86636.71999999991,0.0,0.0,0,0,0,0,0,0,0,{'OPTIMAL': 470}
+highs_milp,10,half,470,417,417,417,0,3257.5,17508.679999999993,0.0,0.0,0,0,0,0,0,53,0,"{'OPTIMAL': 417, 'INFEASIBLE': 53}"
+highs_milp,10,three_quarters,470,259,259,259,0,2995.4,14938.899999999996,0.0,0.0,0,0,0,0,0,211,0,"{'OPTIMAL': 259, 'INFEASIBLE': 211}"
+highs_milp,14,free,470,470,470,470,0,6049.15,1090499.3599999996,0.0,0.0,0,0,0,0,0,0,0,{'OPTIMAL': 470}
+highs_milp,14,half,470,421,421,419,2,3687.5,85679.7,0.0,1.0,0,0,0,0,0,49,0,"{'OPTIMAL': 421, 'INFEASIBLE': 49}"
+highs_milp,14,three_quarters,470,276,276,275,1,3687.7,64029.950000000004,0.0,0.026552683673799003,0,0,0,0,0,194,0,"{'OPTIMAL': 276, 'INFEASIBLE': 194}"
+nice_proximity,6,free,470,470,470,22,448,1074.4499999999998,26024.66499999998,0.10029573738574901,3.407053723931312,0,0,0,0,0,0,0,{'returned': 470}
+nice_proximity,6,half,470,407,2,0,2,657.25,658.375,0.08333328366279551,0.159090876579284,0,0,468,0,0,0,0,"{'no_admissible_prototype': 468, 'returned': 2}"
+nice_proximity,6,three_quarters,470,244,0,0,0,,,,,0,0,470,0,0,0,0,{'no_admissible_prototype': 470}
+nice_proximity,10,free,470,470,470,15,455,1186.95,27834.259999999922,0.166666626930236,15.078070240095258,0,0,0,0,0,0,0,{'returned': 470}
+nice_proximity,10,half,470,417,4,0,4,2307.85,4610.795,0.1398419062606985,0.8764490829780691,0,0,466,0,0,0,0,"{'no_admissible_prototype': 466, 'returned': 4}"
+nice_proximity,10,three_quarters,470,259,0,0,0,,,,,0,0,470,0,0,0,0,{'no_admissible_prototype': 470}
+nice_proximity,14,free,470,470,470,15,455,1335.6,30318.66999999998,0.19228001602459652,15.078070240095258,0,0,0,0,0,0,0,{'returned': 470}
+nice_proximity,14,half,470,421,5,0,5,4618.4,5895.719999999999,0.163311275653541,1.961077854037284,0,0,465,0,0,0,0,"{'no_admissible_prototype': 465, 'returned': 5}"
+nice_proximity,14,three_quarters,470,276,0,0,0,,,,,0,0,470,0,0,0,0,{'no_admissible_prototype': 470}
+nice_sparse,6,free,470,470,470,23,447,890.2,26667.359999999997,0.10599195398390251,3.407053723931312,0,0,0,0,0,0,0,{'returned': 470}
+nice_sparse,6,half,470,407,2,0,2,540.75,547.185,0.08333328366279551,0.159090876579284,0,0,468,0,0,0,0,"{'no_admissible_prototype': 468, 'returned': 2}"
+nice_sparse,6,three_quarters,470,244,0,0,0,,,,,0,0,470,0,0,0,0,{'no_admissible_prototype': 470}
+nice_sparse,10,free,470,470,470,15,455,927.75,26505.834999999977,0.1666666418313975,15.078070240095258,0,0,0,0,0,0,0,{'returned': 470}
+nice_sparse,10,half,470,417,4,0,4,2207.35,4767.2699999999995,0.1398419062606985,0.8764490829780691,0,0,466,0,0,0,0,"{'no_admissible_prototype': 466, 'returned': 4}"
+nice_sparse,10,three_quarters,470,259,0,0,0,,,,,0,0,470,0,0,0,0,{'no_admissible_prototype': 470}
+nice_sparse,14,free,470,470,470,16,454,1007.2,27231.83499999999,0.19775003439281102,15.078070240095258,0,0,0,0,0,0,0,{'returned': 470}
+nice_sparse,14,half,470,421,5,0,5,4217.2,23829.259999999995,0.163311275653541,1.961077854037284,0,0,465,0,0,0,0,"{'no_admissible_prototype': 465, 'returned': 5}"
+nice_sparse,14,three_quarters,470,276,0,0,0,,,,,0,0,470,0,0,0,0,{'no_admissible_prototype': 470}
+ocean_cp,6,free,470,470,470,470,0,9085.45,21941.819999999978,0.0,1.192092895507812e-07,0,0,0,0,0,0,0,{'OPTIMAL': 470}
+ocean_cp,6,half,470,407,407,407,0,4174.7,14368.85,0.0,1.192092895507812e-07,0,0,0,0,0,63,0,"{'OPTIMAL': 407, 'INFEASIBLE': 63}"
+ocean_cp,6,three_quarters,470,244,244,244,0,3893.0,11548.835,0.0,5.960464477539064e-08,0,0,0,0,0,226,0,"{'OPTIMAL': 244, 'INFEASIBLE': 226}"
+ocean_cp,10,free,470,470,470,470,0,16147.4,224979.97499999986,0.0,1.192092895507812e-07,0,0,0,0,0,0,0,{'OPTIMAL': 470}
+ocean_cp,10,half,470,417,417,417,0,5837.8,39639.88,0.0,8.940696716308594e-08,0,0,0,0,0,53,0,"{'OPTIMAL': 417, 'INFEASIBLE': 53}"
+ocean_cp,10,three_quarters,470,259,259,259,0,5190.0,25207.789999999997,0.0,7.450580596923828e-08,0,0,0,0,0,211,0,"{'OPTIMAL': 259, 'INFEASIBLE': 211}"
+ocean_cp,14,free,470,470,470,470,0,22109.5,1137866.7549999994,0.0,1.192092895507812e-07,0,0,0,0,0,0,0,{'OPTIMAL': 470}
+ocean_cp,14,half,470,421,421,421,0,7496.9,143980.9,0.0,1.192092895507812e-07,0,0,0,0,0,49,0,"{'OPTIMAL': 421, 'INFEASIBLE': 49}"
+ocean_cp,14,three_quarters,470,276,276,276,0,6748.9,89699.3,0.0,1.192092895507812e-07,0,0,0,0,0,194,0,"{'OPTIMAL': 276, 'INFEASIBLE': 194}"
+ocean_mip,6,free,470,470,470,470,0,11531.650000000001,36081.90999999994,0.0,1.192092895507812e-07,0,0,0,0,0,0,0,{'OPTIMAL': 470}
+ocean_mip,6,half,470,407,407,407,0,7200.0,26068.719999999983,0.0,1.192092895507812e-07,0,0,0,0,0,63,0,"{'OPTIMAL': 407, 'INFEASIBLE': 63}"
+ocean_mip,6,three_quarters,470,244,244,244,0,6746.4,24473.604999999996,0.0,5.960464477539064e-08,0,0,0,0,0,226,0,"{'OPTIMAL': 244, 'INFEASIBLE': 226}"
+ocean_mip,10,free,470,470,350,350,0,14612.15,51736.990000000005,0.0,1.192092895507812e-07,120,0,0,0,0,0,0,"{'OPTIMAL': 350, 'GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information': 120}"
+ocean_mip,10,half,470,417,281,281,0,8113.2,16067.9,0.0,8.940696716308594e-08,144,0,0,0,0,45,0,"{'OPTIMAL': 281, 'GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information': 144, 'INFEASIBLE': 45}"
+ocean_mip,10,three_quarters,470,259,169,169,0,6679.1,14033.0,0.0,8.940696716308594e-08,144,0,0,0,0,157,0,"{'OPTIMAL': 169, 'INFEASIBLE': 157, 'GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information': 144}"
+ocean_mip,14,free,470,470,310,310,0,14494.849999999999,51625.445000000014,0.0,1.4901161193847648e-07,160,0,0,0,0,0,0,"{'OPTIMAL': 310, 'GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information': 160}"
+ocean_mip,14,half,470,421,264,264,0,7572.75,20615.11,0.0,1.192092895507812e-07,160,0,0,0,0,46,0,"{'OPTIMAL': 264, 'GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information': 160, 'INFEASIBLE': 46}"
+ocean_mip,14,three_quarters,470,276,157,157,0,6826.5,13689.079999999994,0.0,6.007030606269836e-08,160,0,0,0,0,153,0,"{'GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information': 160, 'OPTIMAL': 157, 'INFEASIBLE': 153}"
+region,6,free,470,470,470,470,0,306.4,1272.0549999999998,0.0,0.0,0,0,0,0,0,0,0,{'returned': 470}
+region,6,half,470,407,407,407,0,359.2,1534.76,0.0,0.0,0,0,0,0,0,63,0,"{'returned': 407, 'infeasible': 63}"
+region,6,three_quarters,470,244,244,244,0,353.9,1728.2099999999998,0.0,0.0,0,0,0,0,0,226,0,"{'returned': 244, 'infeasible': 226}"
+region,10,free,470,470,470,470,0,558.05,3200.45,0.0,0.0,0,0,0,0,0,0,0,{'returned': 470}
+region,10,half,470,417,417,417,0,623.0,3734.459999999999,0.0,0.0,0,0,0,0,0,53,0,"{'returned': 417, 'infeasible': 53}"
+region,10,three_quarters,470,259,259,259,0,606.2,3825.419999999999,0.0,0.0,0,0,0,0,0,211,0,"{'returned': 259, 'infeasible': 211}"
+region,14,free,470,470,470,470,0,653.4000000000001,4883.41,0.0,0.0,0,0,0,0,0,0,0,{'returned': 470}
+region,14,half,470,421,421,421,0,739.1,5687.2,0.0,0.0,0,0,0,0,0,49,0,"{'returned': 421, 'infeasible': 49}"
+region,14,three_quarters,470,276,276,276,0,796.45,6084.625,0.0,0.0,0,0,0,0,0,194,0,"{'returned': 276, 'infeasible': 194}"
+shared,6,free,470,470,470,470,0,118.1,166.52999999999997,0.0,0.0,0,0,0,0,0,0,0,{'returned': 470}
+shared,6,half,470,407,407,407,0,162.5,291.25,0.0,0.0,0,0,0,0,0,63,0,"{'returned': 407, 'infeasible': 63}"
+shared,6,three_quarters,470,244,244,244,0,171.55,284.61999999999995,0.0,0.0,0,0,0,0,0,226,0,"{'returned': 244, 'infeasible': 226}"
+shared,10,free,470,470,470,470,0,124.9,174.81,0.0,0.0,0,0,0,0,0,0,0,{'returned': 470}
+shared,10,half,470,417,417,417,0,175.6,297.65999999999985,0.0,0.0,0,0,0,0,0,53,0,"{'returned': 417, 'infeasible': 53}"
+shared,10,three_quarters,470,259,259,259,0,168.7,298.9599999999999,0.0,0.0,0,0,0,0,0,211,0,"{'returned': 259, 'infeasible': 211}"
+shared,14,free,470,470,470,470,0,131.25,208.79499999999996,0.0,0.0,0,0,0,0,0,0,0,{'returned': 470}
+shared,14,half,470,421,421,421,0,183.0,317.7,0.0,0.0,0,0,0,0,0,49,0,"{'returned': 421, 'infeasible': 49}"
+shared,14,three_quarters,470,276,276,276,0,182.8,340.225,0.0,0.0,0,0,0,0,0,194,0,"{'returned': 276, 'infeasible': 194}"

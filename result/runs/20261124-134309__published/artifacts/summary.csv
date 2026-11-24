@@ -1,0 +1,7 @@
+,valid_free,valid_restricted,valid_given_feasible,invalid_returns,feasible_cases,cases,both_feasible_count,matched_cost_tol,median_positive_gap,largest_abs_gap,median_latency_us,p95_latency_us,status,setup_us,rss_delta_bytes
+dense,160,140,300,0,300,320,300,300,0.0,0.0,158.4,220.3,"{'returned': 300, 'infeasible': 20}",2236.15,10240.0
+dice_random,158,128,286,0,300,320,286,34,0.14334811363369152,1.868605636060237,34840.55,70766.43000000001,"{'returned': 286, 'UserConfigValidationException: No counterfactuals found for any of the query points! Kindly check your configuration.': 27, 'invalid': 7}",62742.5,0.0
+interned,160,140,300,0,300,320,300,300,0.0,0.0,76.5,127.5900000000001,"{'returned': 300, 'infeasible': 20}",2236.15,10240.0
+ocean_cp,160,140,300,0,300,320,300,300,0.0,5.960464477539064e-08,7515.0,19731.215000000007,"{'OPTIMAL': 300, 'INFEASIBLE': 20}",8878.9,67584.0
+ocean_mip,160,140,300,0,300,320,300,300,0.0,5.960464477539064e-08,9814.7,23758.09,"{'OPTIMAL': 300, 'INFEASIBLE': 20}",55372.45,0.0
+volumetric,160,140,300,0,300,320,300,300,0.0,0.0,377.70000000000005,778.5400000000002,"{'returned': 300, 'infeasible': 20}",2553.65,20480.0

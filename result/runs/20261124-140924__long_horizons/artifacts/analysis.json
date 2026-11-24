@@ -1,0 +1,1087 @@
+{
+  "total": 5638,
+  "sources": {
+    "bank": {
+      "base_accuracy": 0.499079453910373,
+      "updated_accuracy": 0.5015286749645476,
+      "cutoffs": [
+        [
+          0.35000000000000003,
+          0
+        ],
+        [
+          0.43,
+          0
+        ]
+      ],
+      "outcomes": {
+        "calibrated": {
+          "n": 1536,
+          "admissible": 40,
+          "found": 40,
+          "retained": 6,
+          "usable": 4,
+          "usable_per_100": 0.26041666666666663,
+          "conditional_retention": 0.15
+        },
+        "constrained": {
+          "n": 1536,
+          "admissible": 40,
+          "found": 40,
+          "retained": 6,
+          "usable": 4,
+          "usable_per_100": 0.26041666666666663,
+          "conditional_retention": 0.15
+        },
+        "fixed_four": {
+          "n": 1536,
+          "admissible": 0,
+          "found": 0,
+          "retained": 0,
+          "usable": 0,
+          "usable_per_100": 0.0,
+          "conditional_retention": null
+        },
+        "free": {
+          "n": 1536,
+          "admissible": 3,
+          "found": 1536,
+          "retained": 133,
+          "usable": 0,
+          "usable_per_100": 0.0,
+          "conditional_retention": 0.08658854166666667
+        }
+      }
+    },
+    "bike": {
+      "base_accuracy": 0.9085630971756681,
+      "updated_accuracy": 0.9214352697962351,
+      "cutoffs": [
+        [
+          0.35000000000000003,
+          0
+        ],
+        [
+          0.43,
+          0
+        ]
+      ],
+      "outcomes": {
+        "calibrated": {
+          "n": 1536,
+          "admissible": 518,
+          "found": 518,
+          "retained": 446,
+          "usable": 334,
+          "usable_per_100": 21.744791666666664,
+          "conditional_retention": 0.861003861003861
+        },
+        "constrained": {
+          "n": 1536,
+          "admissible": 518,
+          "found": 518,
+          "retained": 446,
+          "usable": 334,
+          "usable_per_100": 21.744791666666664,
+          "conditional_retention": 0.861003861003861
+        },
+        "fixed_four": {
+          "n": 1536,
+          "admissible": 416,
+          "found": 416,
+          "retained": 389,
+          "usable": 283,
+          "usable_per_100": 18.424479166666664,
+          "conditional_retention": 0.9350961538461539
+        },
+        "free": {
+          "n": 1536,
+          "admissible": 0,
+          "found": 1536,
+          "retained": 1221,
+          "usable": 0,
+          "usable_per_100": 0.0,
+          "conditional_retention": 0.794921875
+        }
+      }
+    },
+    "electricity": {
+      "base_accuracy": 0.6123740688863155,
+      "updated_accuracy": 0.615944527508183,
+      "cutoffs": [
+        [
+          0.35000000000000003,
+          0
+        ],
+        [
+          0.43,
+          0
+        ]
+      ],
+      "outcomes": {
+        "calibrated": {
+          "n": 1536,
+          "admissible": 176,
+          "found": 176,
+          "retained": 100,
+          "usable": 15,
+          "usable_per_100": 0.9765625,
+          "conditional_retention": 0.5681818181818182
+        },
+        "constrained": {
+          "n": 1536,
+          "admissible": 176,
+          "found": 176,
+          "retained": 100,
+          "usable": 15,
+          "usable_per_100": 0.9765625,
+          "conditional_retention": 0.5681818181818182
+        },
+        "fixed_four": {
+          "n": 1536,
+          "admissible": 76,
+          "found": 76,
+          "retained": 54,
+          "usable": 8,
+          "usable_per_100": 0.5208333333333333,
+          "conditional_retention": 0.7105263157894737
+        },
+        "free": {
+          "n": 1536,
+          "admissible": 110,
+          "found": 1536,
+          "retained": 562,
+          "usable": 12,
+          "usable_per_100": 0.78125,
+          "conditional_retention": 0.3658854166666667
+        }
+      }
+    },
+    "seoul": {
+      "base_accuracy": 0.8639956684629435,
+      "updated_accuracy": 0.8061656248571241,
+      "cutoffs": [
+        [
+          0.35000000000000003,
+          0
+        ],
+        [
+          0.43,
+          0
+        ]
+      ],
+      "outcomes": {
+        "calibrated": {
+          "n": 1030,
+          "admissible": 527,
+          "found": 527,
+          "retained": 450,
+          "usable": 152,
+          "usable_per_100": 14.757281553398057,
+          "conditional_retention": 0.8538899430740038
+        },
+        "constrained": {
+          "n": 1030,
+          "admissible": 527,
+          "found": 527,
+          "retained": 450,
+          "usable": 152,
+          "usable_per_100": 14.757281553398057,
+          "conditional_retention": 0.8538899430740038
+        },
+        "fixed_four": {
+          "n": 1030,
+          "admissible": 486,
+          "found": 486,
+          "retained": 434,
+          "usable": 144,
+          "usable_per_100": 13.980582524271846,
+          "conditional_retention": 0.8930041152263375
+        },
+        "free": {
+          "n": 1030,
+          "admissible": 0,
+          "found": 1030,
+          "retained": 705,
+          "usable": 0,
+          "usable_per_100": 0.0,
+          "conditional_retention": 0.6844660194174758
+        }
+      }
+    }
+  },
+  "paired": {
+    "bank": {
+      "fixed_four": {
+        "eligible": 0,
+        "constrained_retained": 0,
+        "filtered_retained": 0,
+        "constrained_usable": 0,
+        "filtered_usable": 0
+      },
+      "calibrated": {
+        "eligible": 40,
+        "constrained_retained": 6,
+        "filtered_retained": 6,
+        "constrained_usable": 4,
+        "filtered_usable": 4
+      }
+    },
+    "bike": {
+      "fixed_four": {
+        "eligible": 416,
+        "constrained_retained": 382,
+        "filtered_retained": 389,
+        "constrained_usable": 276,
+        "filtered_usable": 283
+      },
+      "calibrated": {
+        "eligible": 518,
+        "constrained_retained": 446,
+        "filtered_retained": 446,
+        "constrained_usable": 334,
+        "filtered_usable": 334
+      }
+    },
+    "electricity": {
+      "fixed_four": {
+        "eligible": 76,
+        "constrained_retained": 54,
+        "filtered_retained": 54,
+        "constrained_usable": 8,
+        "filtered_usable": 8
+      },
+      "calibrated": {
+        "eligible": 176,
+        "constrained_retained": 100,
+        "filtered_retained": 100,
+        "constrained_usable": 15,
+        "filtered_usable": 15
+      }
+    },
+    "seoul": {
+      "fixed_four": {
+        "eligible": 486,
+        "constrained_retained": 425,
+        "filtered_retained": 434,
+        "constrained_usable": 136,
+        "filtered_usable": 144
+      },
+      "calibrated": {
+        "eligible": 527,
+        "constrained_retained": 450,
+        "filtered_retained": 450,
+        "constrained_usable": 152,
+        "filtered_usable": 152
+      }
+    }
+  },
+  "windows": [
+    {
+      "task": "bank",
+      "lead": 0.05,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 14,
+      "found": 14,
+      "retained": 2,
+      "usable": 2,
+      "usable_per_100": 0.5208333333333333,
+      "conditional_retention": 0.14285714285714285
+    },
+    {
+      "task": "bank",
+      "lead": 0.05,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 14,
+      "found": 14,
+      "retained": 2,
+      "usable": 2,
+      "usable_per_100": 0.5208333333333333,
+      "conditional_retention": 0.14285714285714285
+    },
+    {
+      "task": "bank",
+      "lead": 0.05,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 0,
+      "found": 0,
+      "retained": 0,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": null
+    },
+    {
+      "task": "bank",
+      "lead": 0.05,
+      "policy": "free",
+      "n": 384,
+      "admissible": 1,
+      "found": 384,
+      "retained": 74,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.19270833333333334
+    },
+    {
+      "task": "bank",
+      "lead": 0.15,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 13,
+      "found": 13,
+      "retained": 4,
+      "usable": 2,
+      "usable_per_100": 0.5208333333333333,
+      "conditional_retention": 0.3076923076923077
+    },
+    {
+      "task": "bank",
+      "lead": 0.15,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 13,
+      "found": 13,
+      "retained": 4,
+      "usable": 2,
+      "usable_per_100": 0.5208333333333333,
+      "conditional_retention": 0.3076923076923077
+    },
+    {
+      "task": "bank",
+      "lead": 0.15,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 0,
+      "found": 0,
+      "retained": 0,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": null
+    },
+    {
+      "task": "bank",
+      "lead": 0.15,
+      "policy": "free",
+      "n": 384,
+      "admissible": 2,
+      "found": 384,
+      "retained": 8,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.020833333333333332
+    },
+    {
+      "task": "bank",
+      "lead": 0.25,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 7,
+      "found": 7,
+      "retained": 0,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.0
+    },
+    {
+      "task": "bank",
+      "lead": 0.25,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 7,
+      "found": 7,
+      "retained": 0,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.0
+    },
+    {
+      "task": "bank",
+      "lead": 0.25,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 0,
+      "found": 0,
+      "retained": 0,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": null
+    },
+    {
+      "task": "bank",
+      "lead": 0.25,
+      "policy": "free",
+      "n": 384,
+      "admissible": 0,
+      "found": 384,
+      "retained": 18,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.046875
+    },
+    {
+      "task": "bank",
+      "lead": 0.35000000000000003,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 6,
+      "found": 6,
+      "retained": 0,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.0
+    },
+    {
+      "task": "bank",
+      "lead": 0.35000000000000003,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 6,
+      "found": 6,
+      "retained": 0,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.0
+    },
+    {
+      "task": "bank",
+      "lead": 0.35000000000000003,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 0,
+      "found": 0,
+      "retained": 0,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": null
+    },
+    {
+      "task": "bank",
+      "lead": 0.35000000000000003,
+      "policy": "free",
+      "n": 384,
+      "admissible": 0,
+      "found": 384,
+      "retained": 33,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.0859375
+    },
+    {
+      "task": "bike",
+      "lead": 0.05,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 100,
+      "found": 100,
+      "retained": 79,
+      "usable": 46,
+      "usable_per_100": 11.979166666666668,
+      "conditional_retention": 0.79
+    },
+    {
+      "task": "bike",
+      "lead": 0.05,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 100,
+      "found": 100,
+      "retained": 79,
+      "usable": 46,
+      "usable_per_100": 11.979166666666668,
+      "conditional_retention": 0.79
+    },
+    {
+      "task": "bike",
+      "lead": 0.05,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 70,
+      "found": 70,
+      "retained": 63,
+      "usable": 32,
+      "usable_per_100": 8.333333333333332,
+      "conditional_retention": 0.9
+    },
+    {
+      "task": "bike",
+      "lead": 0.05,
+      "policy": "free",
+      "n": 384,
+      "admissible": 0,
+      "found": 384,
+      "retained": 270,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.703125
+    },
+    {
+      "task": "bike",
+      "lead": 0.15,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 137,
+      "found": 137,
+      "retained": 111,
+      "usable": 66,
+      "usable_per_100": 17.1875,
+      "conditional_retention": 0.8102189781021898
+    },
+    {
+      "task": "bike",
+      "lead": 0.15,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 137,
+      "found": 137,
+      "retained": 111,
+      "usable": 66,
+      "usable_per_100": 17.1875,
+      "conditional_retention": 0.8102189781021898
+    },
+    {
+      "task": "bike",
+      "lead": 0.15,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 114,
+      "found": 114,
+      "retained": 102,
+      "usable": 59,
+      "usable_per_100": 15.364583333333334,
+      "conditional_retention": 0.8947368421052632
+    },
+    {
+      "task": "bike",
+      "lead": 0.15,
+      "policy": "free",
+      "n": 384,
+      "admissible": 0,
+      "found": 384,
+      "retained": 290,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.7552083333333334
+    },
+    {
+      "task": "bike",
+      "lead": 0.25,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 134,
+      "found": 134,
+      "retained": 125,
+      "usable": 107,
+      "usable_per_100": 27.864583333333332,
+      "conditional_retention": 0.9328358208955224
+    },
+    {
+      "task": "bike",
+      "lead": 0.25,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 134,
+      "found": 134,
+      "retained": 125,
+      "usable": 107,
+      "usable_per_100": 27.864583333333332,
+      "conditional_retention": 0.9328358208955224
+    },
+    {
+      "task": "bike",
+      "lead": 0.25,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 120,
+      "found": 120,
+      "retained": 116,
+      "usable": 98,
+      "usable_per_100": 25.520833333333332,
+      "conditional_retention": 0.9666666666666667
+    },
+    {
+      "task": "bike",
+      "lead": 0.25,
+      "policy": "free",
+      "n": 384,
+      "admissible": 0,
+      "found": 384,
+      "retained": 338,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.8802083333333334
+    },
+    {
+      "task": "bike",
+      "lead": 0.35000000000000003,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 147,
+      "found": 147,
+      "retained": 131,
+      "usable": 115,
+      "usable_per_100": 29.947916666666668,
+      "conditional_retention": 0.891156462585034
+    },
+    {
+      "task": "bike",
+      "lead": 0.35000000000000003,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 147,
+      "found": 147,
+      "retained": 131,
+      "usable": 115,
+      "usable_per_100": 29.947916666666668,
+      "conditional_retention": 0.891156462585034
+    },
+    {
+      "task": "bike",
+      "lead": 0.35000000000000003,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 112,
+      "found": 112,
+      "retained": 108,
+      "usable": 94,
+      "usable_per_100": 24.479166666666664,
+      "conditional_retention": 0.9642857142857143
+    },
+    {
+      "task": "bike",
+      "lead": 0.35000000000000003,
+      "policy": "free",
+      "n": 384,
+      "admissible": 0,
+      "found": 384,
+      "retained": 323,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.8411458333333334
+    },
+    {
+      "task": "electricity",
+      "lead": 0.05,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 49,
+      "found": 49,
+      "retained": 26,
+      "usable": 6,
+      "usable_per_100": 1.5625,
+      "conditional_retention": 0.5306122448979592
+    },
+    {
+      "task": "electricity",
+      "lead": 0.05,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 49,
+      "found": 49,
+      "retained": 26,
+      "usable": 6,
+      "usable_per_100": 1.5625,
+      "conditional_retention": 0.5306122448979592
+    },
+    {
+      "task": "electricity",
+      "lead": 0.05,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 18,
+      "found": 18,
+      "retained": 16,
+      "usable": 4,
+      "usable_per_100": 1.0416666666666665,
+      "conditional_retention": 0.8888888888888888
+    },
+    {
+      "task": "electricity",
+      "lead": 0.05,
+      "policy": "free",
+      "n": 384,
+      "admissible": 35,
+      "found": 384,
+      "retained": 144,
+      "usable": 6,
+      "usable_per_100": 1.5625,
+      "conditional_retention": 0.375
+    },
+    {
+      "task": "electricity",
+      "lead": 0.15,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 38,
+      "found": 38,
+      "retained": 14,
+      "usable": 5,
+      "usable_per_100": 1.3020833333333335,
+      "conditional_retention": 0.3684210526315789
+    },
+    {
+      "task": "electricity",
+      "lead": 0.15,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 38,
+      "found": 38,
+      "retained": 14,
+      "usable": 5,
+      "usable_per_100": 1.3020833333333335,
+      "conditional_retention": 0.3684210526315789
+    },
+    {
+      "task": "electricity",
+      "lead": 0.15,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 16,
+      "found": 16,
+      "retained": 5,
+      "usable": 3,
+      "usable_per_100": 0.78125,
+      "conditional_retention": 0.3125
+    },
+    {
+      "task": "electricity",
+      "lead": 0.15,
+      "policy": "free",
+      "n": 384,
+      "admissible": 32,
+      "found": 384,
+      "retained": 110,
+      "usable": 3,
+      "usable_per_100": 0.78125,
+      "conditional_retention": 0.2864583333333333
+    },
+    {
+      "task": "electricity",
+      "lead": 0.25,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 36,
+      "found": 36,
+      "retained": 24,
+      "usable": 3,
+      "usable_per_100": 0.78125,
+      "conditional_retention": 0.6666666666666666
+    },
+    {
+      "task": "electricity",
+      "lead": 0.25,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 36,
+      "found": 36,
+      "retained": 24,
+      "usable": 3,
+      "usable_per_100": 0.78125,
+      "conditional_retention": 0.6666666666666666
+    },
+    {
+      "task": "electricity",
+      "lead": 0.25,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 11,
+      "found": 11,
+      "retained": 9,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.8181818181818182
+    },
+    {
+      "task": "electricity",
+      "lead": 0.25,
+      "policy": "free",
+      "n": 384,
+      "admissible": 17,
+      "found": 384,
+      "retained": 133,
+      "usable": 2,
+      "usable_per_100": 0.5208333333333333,
+      "conditional_retention": 0.3463541666666667
+    },
+    {
+      "task": "electricity",
+      "lead": 0.35000000000000003,
+      "policy": "calibrated",
+      "n": 384,
+      "admissible": 53,
+      "found": 53,
+      "retained": 36,
+      "usable": 1,
+      "usable_per_100": 0.26041666666666663,
+      "conditional_retention": 0.6792452830188679
+    },
+    {
+      "task": "electricity",
+      "lead": 0.35000000000000003,
+      "policy": "constrained",
+      "n": 384,
+      "admissible": 53,
+      "found": 53,
+      "retained": 36,
+      "usable": 1,
+      "usable_per_100": 0.26041666666666663,
+      "conditional_retention": 0.6792452830188679
+    },
+    {
+      "task": "electricity",
+      "lead": 0.35000000000000003,
+      "policy": "fixed_four",
+      "n": 384,
+      "admissible": 31,
+      "found": 31,
+      "retained": 24,
+      "usable": 1,
+      "usable_per_100": 0.26041666666666663,
+      "conditional_retention": 0.7741935483870968
+    },
+    {
+      "task": "electricity",
+      "lead": 0.35000000000000003,
+      "policy": "free",
+      "n": 384,
+      "admissible": 26,
+      "found": 384,
+      "retained": 175,
+      "usable": 1,
+      "usable_per_100": 0.26041666666666663,
+      "conditional_retention": 0.4557291666666667
+    },
+    {
+      "task": "seoul",
+      "lead": 0.05,
+      "policy": "calibrated",
+      "n": 284,
+      "admissible": 130,
+      "found": 130,
+      "retained": 112,
+      "usable": 93,
+      "usable_per_100": 32.74647887323944,
+      "conditional_retention": 0.8615384615384616
+    },
+    {
+      "task": "seoul",
+      "lead": 0.05,
+      "policy": "constrained",
+      "n": 284,
+      "admissible": 130,
+      "found": 130,
+      "retained": 112,
+      "usable": 93,
+      "usable_per_100": 32.74647887323944,
+      "conditional_retention": 0.8615384615384616
+    },
+    {
+      "task": "seoul",
+      "lead": 0.05,
+      "policy": "fixed_four",
+      "n": 284,
+      "admissible": 115,
+      "found": 115,
+      "retained": 104,
+      "usable": 86,
+      "usable_per_100": 30.28169014084507,
+      "conditional_retention": 0.9043478260869565
+    },
+    {
+      "task": "seoul",
+      "lead": 0.05,
+      "policy": "free",
+      "n": 284,
+      "admissible": 0,
+      "found": 284,
+      "retained": 175,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.6161971830985915
+    },
+    {
+      "task": "seoul",
+      "lead": 0.15,
+      "policy": "calibrated",
+      "n": 264,
+      "admissible": 122,
+      "found": 122,
+      "retained": 99,
+      "usable": 12,
+      "usable_per_100": 4.545454545454546,
+      "conditional_retention": 0.8114754098360656
+    },
+    {
+      "task": "seoul",
+      "lead": 0.15,
+      "policy": "constrained",
+      "n": 264,
+      "admissible": 122,
+      "found": 122,
+      "retained": 99,
+      "usable": 12,
+      "usable_per_100": 4.545454545454546,
+      "conditional_retention": 0.8114754098360656
+    },
+    {
+      "task": "seoul",
+      "lead": 0.15,
+      "policy": "fixed_four",
+      "n": 264,
+      "admissible": 114,
+      "found": 114,
+      "retained": 92,
+      "usable": 7,
+      "usable_per_100": 2.6515151515151514,
+      "conditional_retention": 0.8070175438596491
+    },
+    {
+      "task": "seoul",
+      "lead": 0.15,
+      "policy": "free",
+      "n": 264,
+      "admissible": 0,
+      "found": 264,
+      "retained": 162,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.6136363636363636
+    },
+    {
+      "task": "seoul",
+      "lead": 0.25,
+      "policy": "calibrated",
+      "n": 231,
+      "admissible": 143,
+      "found": 143,
+      "retained": 137,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.958041958041958
+    },
+    {
+      "task": "seoul",
+      "lead": 0.25,
+      "policy": "constrained",
+      "n": 231,
+      "admissible": 143,
+      "found": 143,
+      "retained": 137,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.958041958041958
+    },
+    {
+      "task": "seoul",
+      "lead": 0.25,
+      "policy": "fixed_four",
+      "n": 231,
+      "admissible": 135,
+      "found": 135,
+      "retained": 132,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.9777777777777777
+    },
+    {
+      "task": "seoul",
+      "lead": 0.25,
+      "policy": "free",
+      "n": 231,
+      "admissible": 0,
+      "found": 231,
+      "retained": 204,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.8831168831168831
+    },
+    {
+      "task": "seoul",
+      "lead": 0.35000000000000003,
+      "policy": "calibrated",
+      "n": 251,
+      "admissible": 132,
+      "found": 132,
+      "retained": 102,
+      "usable": 47,
+      "usable_per_100": 18.725099601593627,
+      "conditional_retention": 0.7727272727272727
+    },
+    {
+      "task": "seoul",
+      "lead": 0.35000000000000003,
+      "policy": "constrained",
+      "n": 251,
+      "admissible": 132,
+      "found": 132,
+      "retained": 102,
+      "usable": 47,
+      "usable_per_100": 18.725099601593627,
+      "conditional_retention": 0.7727272727272727
+    },
+    {
+      "task": "seoul",
+      "lead": 0.35000000000000003,
+      "policy": "fixed_four",
+      "n": 251,
+      "admissible": 122,
+      "found": 122,
+      "retained": 106,
+      "usable": 51,
+      "usable_per_100": 20.318725099601593,
+      "conditional_retention": 0.8688524590163934
+    },
+    {
+      "task": "seoul",
+      "lead": 0.35000000000000003,
+      "policy": "free",
+      "n": 251,
+      "admissible": 0,
+      "found": 251,
+      "retained": 164,
+      "usable": 0,
+      "usable_per_100": 0.0,
+      "conditional_retention": 0.6533864541832669
+    }
+  ],
+  "policy": {
+    "calibrated": {
+      "n": 5638,
+      "admissible": 1261,
+      "found": 1261,
+      "retained": 1002,
+      "usable": 505,
+      "usable_per_100": 8.95707697765165,
+      "conditional_retention": 0.7946074544012688
+    },
+    "constrained": {
+      "n": 5638,
+      "admissible": 1261,
+      "found": 1261,
+      "retained": 1002,
+      "usable": 505,
+      "usable_per_100": 8.95707697765165,
+      "conditional_retention": 0.7946074544012688
+    },
+    "fixed_four": {
+      "n": 5638,
+      "admissible": 978,
+      "found": 978,
+      "retained": 877,
+      "usable": 435,
+      "usable_per_100": 7.715501951046471,
+      "conditional_retention": 0.8967280163599182
+    },
+    "free": {
+      "n": 5638,
+      "admissible": 113,
+      "found": 5638,
+      "retained": 2621,
+      "usable": 12,
+      "usable_per_100": 0.2128414331323164,
+      "conditional_retention": 0.4648811635331678
+    }
+  }
+}

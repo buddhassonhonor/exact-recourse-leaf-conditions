@@ -1,0 +1,83 @@
+{
+  "queries": 3840,
+  "single": [
+    1.3064311545312246,
+    1.2009569377990432,
+    1.4830917874396135
+  ],
+  "batch": [
+    2.354466001834423,
+    1.6934133233345832,
+    2.904965404965405
+  ],
+  "wins_shared_single": 8,
+  "wins_shared_batch": 8,
+  "scored_region_fraction": 0.5788461538461539,
+  "public_datasets": {
+    "3": {
+      "single_region_over_enum": 1.0555555555555556,
+      "batch_region_over_enum": 1.1677266797129808,
+      "scored_region_fraction": 1.0
+    },
+    "31": {
+      "single_region_over_enum": 1.2009569377990432,
+      "batch_region_over_enum": 1.6934133233345832,
+      "scored_region_fraction": 0.6410256410256411
+    },
+    "44": {
+      "single_region_over_enum": 1.2984293193717278,
+      "batch_region_over_enum": 2.904965404965405,
+      "scored_region_fraction": 1.0
+    },
+    "151": {
+      "single_region_over_enum": 1.3144329896907216,
+      "batch_region_over_enum": 2.4688387635756057,
+      "scored_region_fraction": 0.1958041958041958
+    },
+    "1461": {
+      "single_region_over_enum": 1.4830917874396135,
+      "batch_region_over_enum": 2.5917815277598866,
+      "scored_region_fraction": 0.5098039215686274
+    },
+    "1486": {
+      "single_region_over_enum": 1.4396728016359919,
+      "batch_region_over_enum": 2.2400932400932403,
+      "scored_region_fraction": 0.3181818181818182
+    },
+    "1590": {
+      "single_region_over_enum": 1.2518703241895262,
+      "batch_region_over_enum": 2.053423155256149,
+      "scored_region_fraction": 0.5166666666666667
+    },
+    "42477": {
+      "single_region_over_enum": 1.6051282051282052,
+      "batch_region_over_enum": 3.7668745414526787,
+      "scored_region_fraction": 0.7419354838709677
+    }
+  },
+  "synthetic": {
+    "6": {
+      "single_region_over_enum": 1.2307692307692308,
+      "batch_region_over_enum": 2.150913168856136,
+      "scored_region_fraction": 0.5
+    },
+    "9": {
+      "single_region_over_enum": 1.312039312039312,
+      "batch_region_over_enum": 2.4261088514429594,
+      "scored_region_fraction": 0.3382352941176471
+    },
+    "12": {
+      "single_region_over_enum": 1.5517241379310347,
+      "batch_region_over_enum": 3.376457067804958,
+      "scored_region_fraction": 0.4358974358974359
+    },
+    "16": {
+      "single_region_over_enum": 1.6432038834951452,
+      "batch_region_over_enum": 3.6310738766184305,
+      "scored_region_fraction": 0.2935483870967742
+    }
+  },
+  "numba": "0.66.0",
+  "cold_us": 1748563.4,
+  "region_cold_us": 1378916.2
+}

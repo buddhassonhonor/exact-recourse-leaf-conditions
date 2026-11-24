@@ -1,0 +1,11 @@
+{
+  "source_url": "https://raw.githubusercontent.com/d3smondwong/Seoul-Bike-Sharing-Demand/main/SeoulBikeData.csv",
+  "doi": "10.24432/C5F62R",
+  "license": "CC BY 4.0",
+  "sha256": "605ff6c2ec121b1e9495877e1951b2b8def729a6d1c2ef873bb6f76086a1b78c",
+  "matching_sources": [
+    "https://raw.githubusercontent.com/d3smondwong/Seoul-Bike-Sharing-Demand/main/SeoulBikeData.csv",
+    "https://raw.githubusercontent.com/Sid-Thorat/Regression_Bike_Sharing_Demand_Prediction/main/SeoulBikeData.csv"
+  ],
+  "mirror_cross_check": "Dates parsed day-first and aligned; all 8760 x 14 field values match after normalizing headers, text whitespace, and numeric representation."
+}

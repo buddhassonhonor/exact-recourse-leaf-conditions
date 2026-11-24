@@ -1,0 +1,72 @@
+{
+  "numba": "0.66.0",
+  "cold_us": 1900791.5,
+  "query_count": 3840,
+  "tree_count": 60,
+  "public_screen_ratio": [
+    0.9987080103359173,
+    0.9949622166246851,
+    1.0048661800486618
+  ],
+  "public_screen_batch_ratio": [
+    1.0033016411175144,
+    0.9877937930138944,
+    1.0174448435094923
+  ],
+  "public_scipy_ratio": [
+    3.3440401317759814,
+    2.855813953488372,
+    3.4424083769633507
+  ],
+  "public_screen_term_share": 0.6411340745287952,
+  "synthetic": {
+    "6": {
+      "latency_us_compiled_enum": 17.85,
+      "latency_us_compiled_screen": 17.8,
+      "latency_us_scipy": 61.9,
+      "batch_us_compiled_enum": 2.6390624999999996,
+      "batch_us_compiled_screen": 3.72421875,
+      "batch_us_scipy": 4.3101562499999995,
+      "term_share": 0.7471264367816092,
+      "screen_over_enum": 1.0056497175141244,
+      "screen_over_enum_batch": 1.0272350503256367,
+      "scipy_over_enum": 3.4229691876750694
+    },
+    "9": {
+      "latency_us_compiled_enum": 19.45,
+      "latency_us_compiled_screen": 18.5,
+      "latency_us_scipy": 65.55,
+      "batch_us_compiled_enum": 3.01640625,
+      "batch_us_compiled_screen": 3.9437499999999996,
+      "batch_us_scipy": 6.51015625,
+      "term_share": 0.7377049180327869,
+      "screen_over_enum": 0.8540305010893245,
+      "screen_over_enum_batch": 1.0044539116963596,
+      "scipy_over_enum": 3.3778920308483293
+    },
+    "12": {
+      "latency_us_compiled_enum": 19.3,
+      "latency_us_compiled_screen": 19.3,
+      "latency_us_scipy": 65.05,
+      "batch_us_compiled_enum": 4.651562500000001,
+      "batch_us_compiled_screen": 4.42421875,
+      "batch_us_scipy": 7.0375,
+      "term_share": 0.68,
+      "screen_over_enum": 1.0,
+      "screen_over_enum_batch": 1.0048519324075622,
+      "scipy_over_enum": 3.430051813471502
+    },
+    "16": {
+      "latency_us_compiled_enum": 20.0,
+      "latency_us_compiled_screen": 19.8,
+      "latency_us_scipy": 67.2,
+      "batch_us_compiled_enum": 4.835156250000001,
+      "batch_us_compiled_screen": 4.615625,
+      "batch_us_scipy": 8.03671875,
+      "term_share": 0.6690848214285714,
+      "screen_over_enum": 1.0049261083743841,
+      "screen_over_enum_batch": 0.9928582282327915,
+      "scipy_over_enum": 3.379310344827586
+    }
+  }
+}

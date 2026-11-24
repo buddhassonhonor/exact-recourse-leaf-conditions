@@ -1,0 +1,106 @@
+{
+  "queries": 3840,
+  "single": [
+    1.237878797551182,
+    1.1970443349753694,
+    1.418426103646833
+  ],
+  "batch": [
+    2.1823641811395174,
+    1.7442640547430566,
+    2.4820899209486167
+  ],
+  "wins_shared_single": 8,
+  "wins_shared_batch": 8,
+  "scored_region_fraction": 0.46895424836601307,
+  "public_datasets": {
+    "3": {
+      "single_region_over_enum": 1.0672268907563025,
+      "batch_region_over_enum": 1.1409476480164513,
+      "fixed_over_tuned_batch": 1.0168054729327782,
+      "scored_region_fraction": 1.0
+    },
+    "31": {
+      "single_region_over_enum": 1.2224938875305624,
+      "batch_region_over_enum": 1.7442640547430566,
+      "fixed_over_tuned_batch": 0.9975928990522039,
+      "scored_region_fraction": 0.6388888888888888
+    },
+    "44": {
+      "single_region_over_enum": 1.2532637075718016,
+      "batch_region_over_enum": 2.1739044219710495,
+      "fixed_over_tuned_batch": 1.004969505308335,
+      "scored_region_fraction": 1.0
+    },
+    "151": {
+      "single_region_over_enum": 1.21875,
+      "batch_region_over_enum": 2.1908239403079857,
+      "fixed_over_tuned_batch": 0.9940288605075468,
+      "scored_region_fraction": 0.15753424657534246
+    },
+    "1461": {
+      "single_region_over_enum": 1.407766990291262,
+      "batch_region_over_enum": 2.4820899209486167,
+      "fixed_over_tuned_batch": 1.016950847542377,
+      "scored_region_fraction": 0.29901960784313725
+    },
+    "1486": {
+      "single_region_over_enum": 1.418426103646833,
+      "batch_region_over_enum": 2.3188042602702947,
+      "fixed_over_tuned_batch": 1.0170132325141776,
+      "scored_region_fraction": 0.27586206896551724
+    },
+    "1590": {
+      "single_region_over_enum": 1.1970443349753694,
+      "batch_region_over_enum": 1.897295654816165,
+      "fixed_over_tuned_batch": 1.0192985265855221,
+      "scored_region_fraction": 0.24166666666666667
+    },
+    "42477": {
+      "single_region_over_enum": 1.5459183673469388,
+      "batch_region_over_enum": 3.596071891791737,
+      "fixed_over_tuned_batch": 0.9997349448685325,
+      "scored_region_fraction": 0.8701298701298701
+    }
+  },
+  "synthetic": {
+    "6": {
+      "single_region_over_enum": 1.1026315789473684,
+      "batch_region_over_enum": 1.6743503772003352,
+      "fixed_over_tuned_batch": 1.0584480600750938,
+      "scored_region_fraction": 0.5
+    },
+    "9": {
+      "single_region_over_enum": 1.3384615384615386,
+      "batch_region_over_enum": 2.931930693069307,
+      "fixed_over_tuned_batch": 1.0041967433271781,
+      "scored_region_fraction": 0.3333333333333333
+    },
+    "12": {
+      "single_region_over_enum": 1.5203045685279188,
+      "batch_region_over_enum": 3.284049284049284,
+      "fixed_over_tuned_batch": 1.0195285531117466,
+      "scored_region_fraction": 0.25396825396825395
+    },
+    "16": {
+      "single_region_over_enum": 1.617021276595745,
+      "batch_region_over_enum": 3.514567901234568,
+      "fixed_over_tuned_batch": 1.003774632250902,
+      "scored_region_fraction": 0.3108108108108108
+    }
+  },
+  "bucket_counts": {
+    "8": 23,
+    "16": 16,
+    "4": 15,
+    "2": 6
+  },
+  "fixed_over_tuned_batch": [
+    1.0108874891205566,
+    0.9975928990522039,
+    1.0170132325141776
+  ],
+  "numba": "0.66.0",
+  "cold_us": 1501141.5,
+  "region_cold_us": 1138028.0
+}

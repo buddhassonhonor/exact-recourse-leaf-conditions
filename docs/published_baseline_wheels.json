@@ -1,0 +1,32 @@
+{
+  "gurobipy": {
+    "filename": "gurobipy-13.0.1-cp313-cp313-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/de/98/ae44df62a7bc1f4b78770713f00014557e520a268544640e90fa63cc50f2/gurobipy-13.0.1-cp313-cp313-win_amd64.whl",
+    "sha256": "532794c3204163315225f7b84776df4aa1b9b68e612596221d928066bf36b1a7"
+  },
+  "ortools": {
+    "filename": "ortools-9.14.6206-cp313-cp313-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/d9/ad/93c05084eec710c38bc952a19002aac31d4c26bb6f8fcbf1057ccc55254b/ortools-9.14.6206-cp313-cp313-win_amd64.whl",
+    "sha256": "47b1b15dcb085d32c61621b790259193aefa9e4577abadf233d47fbe7d0b81ef"
+  },
+  "protobuf": {
+    "filename": "protobuf-6.31.1-cp310-abi3-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/44/3a/b15c4347dd4bf3a1b0ee882f384623e2063bb5cf9fa9d57990a4f7df2fb6/protobuf-6.31.1-cp310-abi3-win_amd64.whl",
+    "sha256": "426f59d2964864a1a366254fa703b8632dcec0790d8862d30034d8245e1cd447"
+  },
+  "anytree": {
+    "filename": "anytree-2.13.0-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/7b/98/f6aa7fe0783e42be3093d8ef1b0ecdc22c34c0d69640dfb37f56925cb141/anytree-2.13.0-py3-none-any.whl",
+    "sha256": "4cbcf10df36b1f1cba131b7e487ff3edafc9d6e932a3c70071b5b768bab901ff"
+  },
+  "oceanpy": {
+    "filename": "oceanpy-2.0.8-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/fa/88/dad5dede553284a9be4ce5af2ce7ad9dc6e646fbbd274e34aec9cb5d2a28/oceanpy-2.0.8-py3-none-any.whl",
+    "sha256": "6a5e9c9849b1af81c252001aa68f45461af1c437d2fe00d696a0dbe6bb47ebb0"
+  },
+  "nicex": {
+    "filename": "NICEx-0.2.3-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/70/dd/955bebd29011e1bbec9bd29fd5faf28135ff443d6634106d45063e829913/NICEx-0.2.3-py3-none-any.whl",
+    "sha256": "cd70d4b93b9702b7e03c5179508f56622182153fba68bf0d98120de64dd458a3"
+  }
+}
